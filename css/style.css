@@ -447,8 +447,9 @@
 /* Image */
 
 	.image {
-		border-radius: 0.35em;
-		border: 0;
+		/*border-radius: 0.35em;*/
+		/*border: 0 0 5px 0;*/
+		border-bottom: 1px solid grey;
 		display: inline-block;
 		position: relative;
 	}
@@ -460,7 +461,7 @@
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
 			background: url("images/overlay.png");
-			border-radius: 0.35em;
+			/*border-radius: 0.35em;*/
 			content: '';
 			display: block;
 			height: 100%;
@@ -933,6 +934,11 @@
 .my-inner-box {
 	border: 1px solid gray;
 	border-radius: 5px;
+	min-height: 450px;
+}
+
+.my-text-box {
+	padding: 0 8px 8px 8px;
 }
 
 /* Header */
