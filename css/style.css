@@ -910,11 +910,13 @@
 /* Work Item */
 
 	.work-item {
-		margin: 0 0 2em 0;
+		margin: 0 0 15px 0;
+		/*border: 2px solid black;*/
 	}
 
 		.work-item .image {
-			margin: 0 0 1.5em 0;
+			margin: 0 0 0 0;
+			/*margin: 0 0 1.5em 0;*/
 		}
 
 		.work-item h3 {
@@ -923,10 +925,15 @@
 		}
 
 		.work-item p {
-			font-size: 0.8em;
+			font-size: 0.6em;
 			line-height: 1.5em;
 			margin: 0;
 		}
+
+.my-inner-box {
+	border: 1px solid gray;
+	border-radius: 5px;
+}
 
 /* Header */
 
