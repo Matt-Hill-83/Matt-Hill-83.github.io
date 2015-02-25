@@ -941,6 +941,26 @@
 	padding: 0 8px 8px 8px;
 }
 
+.my-title {
+	color: red;
+	font-size: 20px;
+}
+
+.my-caption {
+	color: blue;
+	font-size: 14px;
+}
+
+.my-accent {
+	color: black;
+	font-size: 16px;
+}
+
+.my-text {
+	color: green;
+	font-size: 14px;
+}
+
 /* Header */
 
 	#header {
