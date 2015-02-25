@@ -937,7 +937,7 @@
 	min-height: 450px;
 }
 
-.my-text-box {
+.my-info-box {
 	padding: 0 8px 8px 8px;
 }
 
@@ -947,7 +947,7 @@
 }
 
 .my-caption {
-	color: blue;
+	color: gray;
 	font-size: 14px;
 }
 
@@ -957,8 +957,8 @@
 }
 
 .my-text {
-	color: green;
-	font-size: 14px;
+	color: grey;
+	font-size: 14px !important;
 }
 
 .my-description-box-1 {
@@ -969,6 +969,19 @@
 .my-description-box-2 {
 	/*background-color: yellow;*/
 }
+
+.title-row {
+	/*background-color: yellow !important;*/
+	/*width: 80%;*/
+	/*border-bottom: 1px solid gray;*/
+}
+/*
+.my-hr {
+	background-color: yellow !important;
+	color: red !important;
+	width: 100%;
+	margin: 0px;
+}*/
 
 /* Header */
 
