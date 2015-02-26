@@ -934,7 +934,7 @@
 .my-inner-box {
 	border: 1px solid gray;
 	border-radius: 5px;
-	min-height: 450px;
+	min-height: 550px;
 }
 
 .my-info-box {
@@ -964,9 +964,11 @@
 .my-description-box-1 {
 	/*background-color: cornflowerblue;*/
 	margin-bottom: 10px;
+	margin-left: 10px;
 }
 
 .my-description-box-2 {
+	margin-left: 10px;
 	/*background-color: yellow;*/
 }
 
