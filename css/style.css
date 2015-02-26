@@ -908,6 +908,20 @@
 			cursor: default;
 		}
 
+.my-body {
+	background-color: rgb(233, 233, 233) !important;
+}
+
+.my-main-1 {
+	background-color: rgb(250, 250, 250) !important;
+	/*width: 100% !important;*/
+}
+
+.my-main-2 {
+	background-color: rgb(233, 233, 233) !important;
+	/*width: 100% !important;*/
+}
+
 /* Work Item */
 
 	.work-item {
@@ -932,9 +946,13 @@
 		}
 
 .my-inner-box {
-	border: 1px solid gray;
+	border: 1px solid rgb(150,150,150);
 	border-radius: 5px;
 	min-height: 550px;
+	background-color: white !important;
+	box-shadow: inset 0 1px #fff, 0 1px 3px rgba(34,25,25,0.4);
+  -moz-box-shadow: inset 0 1px #fff, 0 1px 3px rgba(34,25,25,0.4);
+  -webkit-box-shadow: inset 0 1px #fff, 0 1px 3px rgba(34,25,25,0.4);
 }
 
 .my-info-box {
@@ -942,7 +960,8 @@
 }
 
 .my-title {
-	color: black;
+	color: #787878;
+	/*color: black;*/
 	font-size: 20px;
 }
 
@@ -952,8 +971,9 @@
 }
 
 .my-accent {
-	color: black;
+	/*color: black;*/
 	font-size: 16px;
+	color: #787878;
 }
 
 .my-text {
@@ -963,8 +983,10 @@
 
 .my-description-box-1 {
 	/*background-color: cornflowerblue;*/
+	margin-top: -1px;
 	margin-bottom: 10px;
 	margin-left: 10px;
+	diplay: block !important;
 }
 
 .my-description-box-2 {
