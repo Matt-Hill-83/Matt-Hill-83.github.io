@@ -911,6 +911,35 @@
 .my-body {
 	background-color: rgb(233, 233, 233) !important;
 }
+.my-link-left {
+	color: #1a0dab;
+	display: inline-block !important;
+	left: -20px !important;
+	top: -5px !important;
+	margin-left: 0px;
+	text-decoration: none;
+	position: relative;
+	border-bottom-style: none;
+}
+.my-link-right {
+	color: #1a0dab;
+	display: inline-block !important;
+	right: -20px !important;
+	top: -5px !important;
+	margin-left: 0px;
+	text-decoration: none;
+	position: relative;
+	border-bottom-style: none;
+}
+.links-row {
+	background-color: rgb(220, 220, 220) !important;
+	/*width: 100%px;*/
+	font-size: 14px;
+	margin-left: 0px;
+	height: 18px;
+	border-bottom: 1px solid rgb(150,150,150);
+
+}
 
 .my-main-1 {
 	background-color: rgb(250, 250, 250) !important;
