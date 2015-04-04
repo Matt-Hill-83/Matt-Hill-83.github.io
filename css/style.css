@@ -974,6 +974,11 @@
 	top: 50%;
 	transform: translateY(-50%);
 }
+/*.my-footer{
+  color: red !important;
+  background-color: red;
+}*/
+
 .my-link-center a{
 	display: inline-block !important;
 	position: relative !important;
